@@ -42,7 +42,7 @@ form {
     cursor: pointer;
     padding: 0 10px;
     color: rgb(0, 80, 130);
-    border-radius: 0px;
+    -webkit-border-radius: 0;
 }
 
 .enter input::placeholder {
