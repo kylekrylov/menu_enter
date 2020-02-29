@@ -26,6 +26,7 @@ form {
 .enter {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .enter input {
@@ -34,10 +35,11 @@ form {
     width: 230px;
     outline: none;
     border: none;
+    box-sizing: border-box;
     background-color: #E1E8ED;
     cursor: pointer;
     padding: 0 10px;
-    color: #5AC8FA;
+    color: rgb(0, 80, 130);
 }
 
 .enter input::placeholder {
@@ -47,7 +49,7 @@ form {
 
 .enter button {
     height: 35px;
-    width: 250px;
+    width: 230px;
     background-color: #5AC8FA;
     border: none;
     margin: 5px auto;
@@ -89,11 +91,19 @@ form {
 }
 
 @media all and (max-width: 420px) {
+    body {
+        background-color: white;
+    }
+    .window {
+        min-width: 100%;
+    }
     form {
-        width: 100vh;
-        height: 100vh;
+        width: 100%;
+        box-shadow: none;
     }
-    .enter {
-        margin-top: calc(50% - 82px);
+    .enter input,
+    .enter button {
+        width: 100%;
     }
+    .enter button
 }
