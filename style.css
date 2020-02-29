@@ -47,6 +47,7 @@ form {
 
 .enter input::placeholder {
     color: #8899A6;
+    font-size: 12px;
     /* text-transform: uppercase; */
 }
 
