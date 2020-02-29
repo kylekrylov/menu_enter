@@ -33,6 +33,7 @@ form {
     margin: 5px auto;
     height: 35px;
     width: 230px;
+    font-size: 14px;
     outline: none;
     border: none;
     box-sizing: border-box;
@@ -40,6 +41,7 @@ form {
     cursor: pointer;
     padding: 0 10px;
     color: rgb(0, 80, 130);
+    border-radius: 0px;
 }
 
 .enter input::placeholder {
